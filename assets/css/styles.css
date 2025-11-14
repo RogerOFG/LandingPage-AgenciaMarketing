@@ -1,0 +1,14 @@
+.main__bg{
+    background-image: url('../img/home.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.beneficios{
+    width: 35%;
+    background-image: url('../img/beneficios.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
