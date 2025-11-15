@@ -25,14 +25,35 @@
     <!-- ✅ Integración de Tailwind CSS por CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap" rel="stylesheet">
+
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body class="relative bg-white text-gray-800 font-sans">
-    <header class="w-full h-[60px] border-solid border-b border-gray-300">
-        <div class="fixed top-0 left-0 w-full h-[60px] bg-white z-10">
-            
+    <header class="w-full h-[70px]">
+        <div class="fixed top-0 left-0 flex items-center w-full h-[70px] px-10 bg-white border-solid border-b border-gray-300 z-10">
+            <div class="w-[1000px] max-w-[90%] flex justify-between items-center mx-auto">
+                <div class="flex items-center gap-8">
+                    <div class="flex items-center cursor-pointer">
+                        <img class="w-10" src="./assets/img/logo.png" alt="Imagen no soportada por su navegador">
+                        <h3 class="logoTipografia text-2xl font-bold pt-1 text-[#1B3149]">Brikk</h3>
+                    </div>
+
+
+                </div>
+
+                <div class="flex items-center gap-8 font-bold">
+                    <button class="h-10 px-5 rounded-lg border-solid border-2 border-[#1B3149] text-[#1B3149]">Contáctanos</button>
+                </div>
+            </div>
         </div>
     </header>
 
@@ -45,8 +66,8 @@
                     <h2 class="mb-5 text-lg leading-[1.2]">Transforma tu negocio inmobiliario con estrategias digitales que generan resultados reales. Especialistas en conectar agentes con compradores listos para actuar.</h2>
 
                     <div class="flex gap-4 text-base font-semibold">
-                        <button class="h-12 px-5 rounded-lg border-solid border border-[#5B5F72] text-white bg-[#5B5F72]">Solicita tu consulta gratuita</button>
-                        <button class="h-12 px-5 rounded-lg border-solid border border-[#5B5F72] text-[#5B5F72] bg-white">Conoce nuestros servicios</button>
+                        <button class="h-12 px-5 rounded-lg border-solid border border-[#1B3149] text-white bg-[#1B3149]">Solicita tu consulta gratuita</button>
+                        <button class="h-12 px-5 rounded-lg border-solid border border-[#1B3149] text-[#1B3149] bg-white">Conoce nuestros servicios</button>
                     </div>
                 </div>
             </div>
@@ -416,11 +437,84 @@
                 </div>
 
                 <div class="flex gap-4 mt-10 text-base font-semibold">
-                    <button class="h-12 px-5 rounded-lg border-solid border border-[#5B5F72] text-white bg-[#5B5F72]">Solicita tu consulta gratuita</button>
-                    <button class="h-12 px-5 rounded-lg border-solid border border-[#5B5F72] text-[#5B5F72] bg-white">Llámanos directamente</button>
+                    <button class="h-12 px-5 rounded-lg border-solid border border-[#1B3149] text-white bg-[#1B3149]">Solicita tu consulta gratuita</button>
+                    <button class="h-12 px-5 rounded-lg border-solid border border-[#1B3149] text-[#1B3149] bg-white">Llámanos directamente</button>
                 </div>
             </div>
         </div>
     </main>
+
+    <footer class="h-full w-full flex justify-center items-center px-12 py-10 bg-[#5B5F7250]">
+        <div class="w-[1000px] max-w-[90%] h-full pt-10 text-[#5B5F72]">
+            <div class="grid grid-cols-4 gap-8">
+                <!-- Logo -->
+                <img class="w-[140px]" src="./assets/img/logo-full.png" alt="Imagen no soportada por su navegador">
+
+                <!-- Nosotros -->
+                <div>
+                    <h6 class="text-base font-bold">Nosotros</h6>
+                    <ul class="pt-4 text-sm font-semibold">
+                        <li class="cursor-pointer">Acerca de nosotros</li>
+                        <li class="cursor-pointer">Inversores</li>
+                        <li class="cursor-pointer">Socios</li>
+                        <li class="cursor-pointer">Afiliados</li>
+                        <li class="cursor-pointer">Legal</li>
+                        <li class="cursor-pointer">Estado del servicio</li>
+                    </ul>
+                </div>
+
+                <!-- Atención al cliente -->
+                <div>
+                    <h6 class="text-base font-bold">Atención al cliente</h6>
+                    <ul class="pt-4 text-sm font-semibold">
+                        <li class="cursor-pointer">Centro de ayuda</li>
+                        <li class="cursor-pointer">Contacto</li>
+                        <li class="cursor-pointer">Instrucciones de compra</li>
+                        <li class="cursor-pointer">Política de devoluciones</li>
+                        <li class="cursor-pointer">Reportar un problema</li>
+                    </ul>
+                </div>
+
+                <!-- Servicios -->
+                <div>
+                    <h6 class="text-base font-bold">Servicios</h6>
+                    <ul class="pt-4 text-sm font-semibold">
+                        <li class="cursor-pointer">Diseño web</li>
+                        <li class="cursor-pointer">Marketing digital</li>
+                        <li class="cursor-pointer">SEO</li>
+                        <li class="cursor-pointer">Copywriting</li>
+                        <li class="cursor-pointer">Consultoría</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="flex justify-between border-t border-[#5B5F7250] pt-10 mt-10">
+                <!-- Términos y Política -->
+                <div class="flex gap-8 text-sm font-semibold">
+                    <a href="#">Términos del servicio</a>
+                    <a href="#">Política de privacidad</a>
+                </div>
+
+                <!-- Redes Sociales -->
+                <div class="socials flex gap-4 text-base">
+                    <a href="#" target="_blank">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="#" target="_blank">
+                        <i class="bi bi-twitter-x"></i>
+                    </a>
+                    <a href="#" target="_blank">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                    <a href="#" target="_blank">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="#" target="_blank">
+                        <i class="bi bi-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

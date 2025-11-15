@@ -79,3 +79,15 @@
     border-left: 14px solid #E2E3E9;
     z-index: 1;
 }
+
+.socials{
+
+}
+
+.socials .bi{
+    width: 300px;
+}
+
+.logoTipografia{
+    font-family: "Momo Trust Display", sans-serif;
+}
